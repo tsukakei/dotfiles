@@ -21,4 +21,3 @@ set noundofile
 
 colorscheme desert
 syntax on
-
