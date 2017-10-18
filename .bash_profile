@@ -5,4 +5,3 @@ alias mv='mv -i'
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
-eval "$(rbenv init -)"
