@@ -29,6 +29,10 @@ This repoitory is for my dotfiles.
 
  ``` $ ./dotfilesLink.sh```
 
+1. use .gitignore_global
+
+ ``` $ git config --global core.excludesfile ~/.gitignore_global```
+
 1. install rbenv, pyenv, and nvm (optional)
 
  ``` $ brew install rbenv```
