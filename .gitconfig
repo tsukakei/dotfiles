@@ -14,7 +14,7 @@
 [push]
   default = current
 [core]
-  excludefile = ~/.gitignore
+  excludesfile = ~/.gitignore
   excludesfile = ~/.gitignore_global
 [pager]
   log  = diff-highlight | less

@@ -11,7 +11,7 @@ if which rbenv > /dev/null; then
   eval "$(rbenv init -)"
 fi
 # For pyenv
-export PATH="$HOME/.pyenv/bin:$PATH"
+# export PATH="$HOME/.pyenv/bin:$PATH"
 if which pyenv > /dev/null; then
   eval "$(pyenv init -)"
 fi
@@ -26,3 +26,6 @@ export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS/
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+CONDABIN=${HOME}/.pyenv/versions/anaconda3-5.0.0/bin
+alias conda-activate='source ${CONDABIN}/activate'
+alias conda-deactivate='source ${CONDABIN}/deactivate'
