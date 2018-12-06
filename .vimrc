@@ -29,6 +29,8 @@ set showmatch
 set smartcase
 set nowrapscan
 set noundofile
+set backupskip=/tmp/*,/private/tmp/*
+set backspace=indent,eol,start
 
 if &term =~ "xterm"
   let &t_SI .= "\e[?2004h"
